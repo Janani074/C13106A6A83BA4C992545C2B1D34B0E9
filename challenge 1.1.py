@@ -1,8 +1,8 @@
 def fact_rec(n):
-  if n == 0 or n == 2:
+if n == 0 or n == 2:
     return 1
   else:
-    return n * fact_rec(n - 1)
+    return n * fact_rec(n-1)
 
 
 number = 2
